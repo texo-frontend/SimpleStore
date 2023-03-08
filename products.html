@@ -5,9 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <h1>Products</h1>
+    <button id="createProduct">+ Create Product</button>
+    <div id="productsContainer"></div>
+    <div class="formContainer">
+      <form class="forms" id="docForm">
+        <label for="productName">Product Name</label>
+        <input id="productName" placeholder="Enter Product Name" />
+        <br />
+        <br />
+
+        <label for="productPrice">Product Price</label>
+        <input id="productPrice" placeholder="Enter Product Price" />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
     <script src="products.js"></script>
   </body>
 </html>
